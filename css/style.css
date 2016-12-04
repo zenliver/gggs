@@ -2,6 +2,9 @@ body {
     font-family: Microsoft YaHei;
     line-height: 1.8em;
 }
+a {
+    text-decoration: none !important;
+}
 .clearfix:before, .clearfix:after {
     content:"";
     display:table;
@@ -55,6 +58,9 @@ header a {
     background-color: #fff;
     border: 1px solid #ccc;
 }
+.philosophy-item h3 {
+    color: #0d84c8;
+}
 .philosophy-body p {
     padding-left: 10px;
     padding-right: 10px;
@@ -70,6 +76,19 @@ header a {
     margin-right: 10px;
     border-bottom: 2px dotted #999999;
     text-align: center;
+    color: #999999;
+}
+.philosophy-desc {
+    color: #505050;
+}
+.philosophy-item:hover {
+    background-color: #a4be16;
+}
+.philosophy-item:hover h3, .philosophy-item:hover .philosophy-sub, .philosophy-item:hover .philosophy-desc {
+    color: #fff;
+}
+.philosophy-item:hover .philosophy-sub {
+    border-bottom: 2px dotted #fff;
 }
 .thumbnail {
     border: none;
@@ -143,6 +162,12 @@ header a {
 .contact label {
     font-weight: normal;
 }
+#contact-name, #contact-phone {
+    border-radius: 17px;
+}
+#contact-info {
+    border-radius: 12px;
+}
 .contact .send-btn {
     color: #fff;
     font-size: 18px;
@@ -152,11 +177,25 @@ header a {
     border-radius: 16px;
     padding: 0 30px;
 }
-.social-weixin, .social-weibo {
+.social {
+    margin-top: 50px;
 }
-.weixin-qr img {
+.weixin-title, .weibo-title {
+    font-size: 16px;
+}
+.weixin-qr img, .weibo-head img {
     width: 69px;
     height: 69px;
+    float: left;
+    margin-right: 10px;
+}
+.weibo-add-btn {
+    width: 57px;
+    height: 22px;
+    padding: 1px 6px;
+    color: #fc4a00;
+    font-size: 12px;
+    border-radius: 0;
 }
 footer {
     height: 90px;
@@ -196,5 +235,8 @@ footer {
     .philosophy-item {
         margin-bottom: 20px;
         border: none;
+    }
+    .contact-form {
+        margin-top: 30px;
     }
 }

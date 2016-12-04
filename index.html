@@ -21,7 +21,7 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse-menu">
                 <ul class="nav navbar-nav pull-right">
-                    <li><a href="#">首页</a></li>
+                    <li class="active"><a href="#">首页</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">PHILOSOPHY</a></li>
                     <li><a href="#">WORK</a></li>
@@ -56,16 +56,16 @@
     </div>
     <div class="about">
         <div class="container">
-            <div class="h2 about-title">
+            <div class="h2 about-title" data-scroll-reveal="enter left">
                 ABOUT
             </div>
             <div class="row">
-                <div class="col-sm-6 about-text">
+                <div class="col-md-6 about-text">
                     <p>江苏某某影视，影视广告行业生力军。位于国家级历史文化名城，江苏省某某市。公司以品牌塑造、整合传播为己任，把务实与责任作为公司成功运营的两大基石。</p>
                     <p>弘扬人以平实而守信，专业而激昂的广告理念，肩负着形象建设和品牌维护的双重使命。创业以来，汇集企业形象规划、品牌形象规划、平面设计、包装设计、宣传资料体系设计、制作等各方面的成功案例。</p>
                     <p>致力于政府和社会各界广告传播服务工作，潜心为企业及产品提供品牌创建、推广、应用维护等个性化、务实化、市场化的专业视觉设计策划服务。</p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <img src="image/about.jpg" alt="关于我们">
                 </div>
             </div>
@@ -74,12 +74,12 @@
     <!-- about end -->
     <div class="philosophy-head">
         <div class="container">
-                <div class="h2 philosophy-title">
+                <div class="h2 philosophy-title" data-scroll-reveal="enter left">
                     PHILOSOPHY
                 </div>
         </div>
     </div>
-    <div class="philosophy-body">
+    <div class="philosophy-body" data-scroll-reveal="enter bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -88,9 +88,11 @@
                             <img src="image/vcr.jpg" alt="">
                         </a>
                         <div class="caption">
-                            <h3>vcr宣传片</h3>
-                            <p class="philosophy-sub">vcr propaganda film</p>
-                            <p>“激情点燃创意，品质改变生活” 未来将携手客户打造国内顶尖的影视制作公司</p>
+                            <a href="#">
+                                <h3>vcr宣传片</h3>
+                                <p class="philosophy-sub">vcr propaganda film</p>
+                                <p class="philosophy-desc">“激情点燃创意，品质改变生活” 未来将携手客户打造国内顶尖的影视制作公司</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -100,9 +102,11 @@
                             <img src="image/vtc.jpg" alt="">
                         </a>
                         <div class="caption">
-                            <h3>vtc广告片</h3>
-                            <p></p>
-                            <p>我们拥有完善、高端、专业的电视广告片制作团队及资源</p>
+                            <a href="#">
+                                <h3>vtc广告片</h3>
+                                <p></p>
+                                <p class="philosophy-desc">我们拥有完善、高端、专业的电视广告片制作团队及资源</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -112,9 +116,11 @@
                             <img src="image/wdy.jpg" alt="">
                         </a>
                         <div class="caption">
-                            <h3>微电影</h3>
-                            <p class="philosophy-sub">short film</p>
-                            <p>微电影是指专门运用在各种新媒体平台上播放的、在移动状态和短时休闲状态下观看的影片</p>
+                            <a href="#">
+                                <h3>微电影</h3>
+                                <p class="philosophy-sub">short film</p>
+                                <p class="philosophy-desc">微电影是指专门运用在各种新媒体平台上播放的、在移动状态和短时休闲状态下观看的影片</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -124,9 +130,11 @@
                             <img src="image/hdsp.jpg" alt="">
                         </a>
                         <div class="caption">
-                            <h3>活动视频</h3>
-                            <p class="philosophy-sub">active video</p>
-                            <p>专业服务于信息发布会、报告会、交流会、研讨会、招标会、年会、庆典等活动视频</p>
+                            <a href="#">
+                                <h3>活动视频</h3>
+                                <p class="philosophy-sub">active video</p>
+                                <p class="philosophy-desc">专业服务于信息发布会、报告会、交流会、研讨会、招标会、年会、庆典等活动视频</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +143,7 @@
     </div>
     <div class="work">
         <div class="container">
-                <div class="h2 work-title">
+                <div class="h2 work-title" data-scroll-reveal="enter left">
                     WORK
                 </div>
                 <ul class="nav nav-pills">
@@ -145,7 +153,7 @@
                     <li><a href="#work-wdy" data-toggle="pill">微电影</a></li>
                     <li><a href="#work-hdsp" data-toggle="pill">活动视频</a></li>
                 </ul>
-                <div class="tab-content">
+                <div class="tab-content" data-scroll-reveal="enter bottom">
                     <div class="tab-pane fade in active" id="work-all">
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
@@ -158,7 +166,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work2.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -166,7 +174,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work3.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -174,7 +182,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work4.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -182,7 +190,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work5.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -190,7 +198,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work6.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -198,7 +206,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work7.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -206,7 +214,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="thumbnail">
-                                    <img src="image/work1.jpg" alt="">
+                                    <img src="image/work8.jpg" alt="">
                                 </a>
                                 <div class="caption">
                                     <p>中国（成都）国际时尚中心<br>2015/09/18</p>
@@ -214,10 +222,182 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="work-vcr">VCR宣传片</div>
-                    <div class="tab-pane fade" id="work-tvc">TVC广告片</div>
-                    <div class="tab-pane fade" id="work-wdy">微电影</div>
-                    <div class="tab-pane fade" id="work-hdsp">活动视频</div>
+                    <div class="tab-pane fade" id="work-vcr">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work3.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work5.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work7.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work8.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="work-tvc">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work1.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work2.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work3.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work4.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work5.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work6.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work8.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="work-wdy">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work2.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work3.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work4.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work5.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work6.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work7.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="work-hdsp">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work4.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work6.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="thumbnail">
+                                    <img src="image/work7.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <p>中国（成都）国际时尚中心<br>2015/09/18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a href="#" class="btn btn-default work-more">VIEW MORE</a>
         </div>
@@ -228,31 +408,31 @@
                 CONTACT
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <p class="contact-text">感谢您来到某某影视广告有限公司，若您有合作意向，请您为我们留言或使用以下方式联系我们，我们将尽快给您回复，并为您提供最真诚的服务，谢谢。</p>
                     <p><span class="glyphicon glyphicon-phone"></span>手机号码</p>
                     <p><span class="glyphicon glyphicon-envelope"></span>邮箱@jshyys.net</p>
                     <p><span class="glyphicon glyphicon-map-marker"></span>地址信息</p>
                     <div class="social row">
                         <div class="col-md-6 social-weixin">
-                            <p>官方微信<img src="image/weixin.jpg" alt=""></p>
+                            <p class="weixin-title">官方微信<img src="image/weixin.jpg" alt=""></p>
                             <p class="weixin-qr">
                                 <img src="image/weixin-qr.png" alt="">
-                                扫二维码关注某某影视官方微信
+                                扫二维码关注<br>某某影视<br>官方微信
                             </p>
                         </div>
                         <div class="col-md-6 social-weibo">
-                            <p>官方微博<img src="image/weibo.jpg" alt=""></p>
-                            <p>
+                            <p class="weibo-title">官方微博<img src="image/weibo.jpg" alt=""></p>
+                            <p class="weibo-head">
                                 <img src="image/weibo-head.jpg" alt="">
                                 某某影视广告有限公司<br>
-                                <button type="button" name="button" class="btn btn-default">+加关注</button>
+                                <button type="button" name="button" class="btn btn-default weibo-add-btn">+加关注</button>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <form class="" action="#" method="post">
+                <div class="col-md-6">
+                    <form class="contact-form" action="#" method="post">
                         <div class="form-group">
                             <label for="contact-name">姓名 NAME</label>
                             <input type="text" name="" value="" id="contact-name" class="form-control">
@@ -281,5 +461,12 @@
 
     <script src="js/jquery-1.12.4.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/scrollReveal.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        (function($) {
+            'use strict';
+            window.scrollReveal = new scrollReveal({ reset: true, move: '50px' });
+        })();
+    </script>
 </body>
 </html>
