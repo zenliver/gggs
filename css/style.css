@@ -31,6 +31,7 @@ header a {
 }
 .about img {
     width: 100%;
+    max-width: 505px;
     padding-top: 30px;
 }
 .about-text {
@@ -92,6 +93,7 @@ header a {
 }
 .thumbnail {
     border: none;
+    border-radius: 0;
     padding: 0;
 }
 .about-title:before, .philosophy-title:before, .work-title:before, .contact-title:before {
@@ -208,6 +210,20 @@ footer {
         padding-top: 15px;
     }
 }
+/*for pads*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .philosophy-item {
+        margin-bottom: 30px;
+        border: none;
+    }
+    .philosophy-body {
+        padding-bottom: 30px;
+    }
+    .tab-content .caption p {
+        width: 50%;
+        margin: 0 auto 20px auto;
+    }
+}
 /*small screen*/
 @media screen and (max-width:768px) {
     .navbar-nav {
@@ -233,10 +249,17 @@ footer {
         padding-bottom: 30px;
     }
     .philosophy-item {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         border: none;
+    }
+    .tab-content .caption p {
+        width: 60%;
+        margin: 0 auto 20px auto;
     }
     .contact-form {
         margin-top: 30px;
+    }
+    footer {
+        padding-top: 20px;
     }
 }
