@@ -249,12 +249,15 @@ footer {
         background-image: linear-gradient(to right,#1b3b87,#307cb0,#d56e97,#8d4577);
     }
     .philosophy-body {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .philosophy-item {
         margin-bottom: 20px;
         border: none;
+    }
+    .work {
+        padding-top: 20px;
     }
     .tab-content .caption p {
         width: 60%;
