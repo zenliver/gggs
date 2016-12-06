@@ -245,11 +245,14 @@ footer {
         padding-top: 20px;
     }
     .philosophy-head {
-        height: 100px;
+        height: 80px;
         background-image: linear-gradient(to right,#1b3b87,#307cb0,#d56e97,#8d4577);
     }
+    .philosophy-title {
+        margin-top: 20px;
+    }
     .philosophy-body {
-        padding-top: 20px;
+        padding-top: 25px;
         padding-bottom: 20px;
     }
     .philosophy-item {
