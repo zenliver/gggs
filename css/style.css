@@ -1,6 +1,7 @@
 body {
     font-family: Microsoft YaHei;
     line-height: 1.8em;
+    padding-top: 80px;
 }
 a {
     text-decoration: none !important;
@@ -226,6 +227,9 @@ footer {
 }
 /*small screen*/
 @media screen and (max-width:768px) {
+    body {
+        padding-top: 50px;
+    }
     .navbar-nav {
         float: none !important;
     }
